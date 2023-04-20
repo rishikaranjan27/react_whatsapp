@@ -1,0 +1,100 @@
+
+.feed {
+    flex: 0.7;
+    background-color: blanchedalmond;
+}
+
+/* ------------------------------------------------------------------- */
+
+.feed__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f8fa;
+    padding: 10px;
+    border-left: 1px solid rgb(172, 170, 168);
+}
+
+/* ------------------------------------------------------------------- */
+
+.feed__profile {
+    height: 45px;
+    width: 88%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.feed__profile__name {
+    font-size: 17px;
+    margin-top: -1px;
+}
+
+.feed_profile__status {
+    font-size: 12px;
+    margin-top: -10px;
+    color: #54656f;
+}
+
+/* ------------------------------------------------------------------- */
+
+.feed_icons {
+    display: flex;
+    color: #54656f;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------------------- */
+
+.chat {
+    height: 70vh;
+    background-color: #ECE5DD;
+
+}
+
+.chat__message {
+    padding: 5px;
+    background-color: white;
+    position: relative;
+    width: fit-content;
+}
+
+.chat__receiver {
+    background-color: aquamarine;
+    margin-left: auto;
+}
+
+
+/* ------------------------------------------------------------------- */
+
+.feed__bottom {
+    display: flex;
+    align-items: center;
+    background-color: #f7f8fa;
+    padding: 10px;
+    justify-content: space-between;
+    color: #54656f;
+    border-left: 1px solid rgb(172, 170, 168);
+}
+
+.feed__bottom > form {
+    width: 100%;
+}
+
+.feed__bottom > form > input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* .feed__bottom > form > button  {
+    display: none;
+
+} */
+
+.feed__bottom > * {
+    padding: 10px;
+}
+
